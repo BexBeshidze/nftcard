@@ -1,0 +1,120 @@
+body {
+    background-color: #0D192C;
+    display: flex;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    border-radius: 15px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.imgMain{
+    width:302px;
+    height:302px;
+    border-radius: 8px;
+    
+}
+.priceClock {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.avatar {
+    width:30px;
+    height:33px;
+    margin-right: 16px;
+}
+.author{
+    display:flex;
+    align-items: center;
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #00FFF8;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color:#8BACD9;
+}
+.price{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+.clock{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-top:22px;
+}
+.line{
+    background-color: #2E405A;
+    height: 1px;
+     border: 0;
+    margin-bottom: 0;
+}
+span{
+    color: #FFFFFF;
+    margin-left:5px;
+    height: 20px;
+    cursor:pointer;
+}
+.eye{
+    position: absolute;
+    top: 50%;
+    right:50%;
+    transform:translate(50%, -50%);
+}
+.overlay{
+    width:302px;
+    height:302px;
+    background: rgba(0, 255, 248, 0.5);
+    border-radius: 8px;
+    position:absolute;
+    top:0;
+    opacity:0;
+    transition:0.7s;
+    
+    /* display:flex;
+    justify-content: center;
+    align-items:center; */
+}
+.container{
+    position:relative;
+    cursor:pointer;
+}
+.container:hover .overlay{
+    opacity:1;
+}
+span:hover{
+    color: #00FFF8;
+
+}
